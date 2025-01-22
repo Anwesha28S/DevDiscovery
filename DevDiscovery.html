@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DevDiscovery</title>
+        
+        <style>
+            p{
+               
+                font-family: Arial;
+                width: 450px;
+                text-align: center;
+                margin-left: 350px;
+                font-size:20px;
+                line-height: 20px;
+                margin-top:20px;
+
+            }
+            body{
+                background-image: url(code.jpg);
+                background-repeat: no-repeat;
+            }
+            .thumbnail{
+                width:350px;
+                border-style:solid;
+                border-color: rgba(0, 0, 255, 0.484);
+                margin-left: 200px;
+            }
+            .ag{
+                background-color:rgb(0, 140, 255);
+                color: white;
+                border-radius: 15px;
+                transition: background-color 0.15s;
+                border-color: blue;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                text-align: center;
+                cursor: pointer;
+                margin-left: 500px;
+                font-size:16px;
+                margin-top:7px;
+            }
+            .ag:hover{
+                background-color: white;
+                
+                color:rgb(0, 140, 255);
+            }
+            .ag:active{
+                opacity:0.4;
+            }
+            .PP{
+                font-size:17px;
+                margin-top: 30px;
+            }
+            .search{
+                
+                font-size:20px;
+                margin-left: 460px;
+            }
+            .Email{
+                font-size:15px;
+                margin-left:490px;
+            }
+            .intro{
+                font-weight: bold;
+                color:rgba(255, 0, 0, 0.765);
+                font-size: 20px;
+                line-height: 30px;
+            }
+            .intro:hover{
+                color:green;
+            }
+            .Heading{
+                margin-left:350px;
+            }
+            .link1{
+                cursor: pointer;
+                transition:color 0.15s;
+                margin-left:495px;
+                font-size: 23px;
+            }
+            .link1:hover{
+                color:green;
+            }
+            .codes{
+                max-width: 100%;
+                height:300px;
+                border-radius: 10px;
+                border-color: rgb(5, 5, 102);
+                border-width: 10px;
+                object-fit:contain;
+                object-position:center;
+                margin-left: 322px;
+                margin-top:10px;
+            }
+            .tndline{
+                
+                font-size:30px;
+                width:200px;
+                line-height: 50px;
+                font-family: Arial;
+                text-align: center;
+
+            
+            }
+            .tagline{
+                margin-top:100px;
+                line-height: 28px;
+            }
+            .WW{
+                color:rgba(255, 0, 0, 0.765);
+                font-weight: bold;
+                font-size: 28px;
+            }
+            .bodytext{
+                width:280px;
+                text-align:center;
+                justify-content: center;
+                font-family: Arial;
+                font-size:18px;
+                line-height: 19px;
+                color:rgb(5, 5, 102);
+            }
+            .container{
+                display:flex;
+                gap:28px;
+                margin-left: 330px;
+            }
+            .background{
+                background-color:rgb(235, 174, 244) ;
+                width:100%;
+            }
+            .fs{
+                color:rgb(4, 4, 95);
+                
+                font-size: 30px;
+            }
+            .fs:hover{
+                color:brown;
+            }
+            .author{
+                margin-left: 100px;
+                margin-top: 30px;
+                display:flex;
+                gap:28px;
+                margin-bottom:0px;
+            }
+            .photo{
+                max-width: 100%;
+                height:300px;
+                border-radius: 300px;
+                border-color: rgb(5, 5, 102);
+                border-width: 10px;
+                object-fit:contain;
+                object-position:left;
+                margin-top:0px;
+                cursor:pointer;
+                transition:opacity 0.15s;
+            }
+            .photo:hover{
+                opacity:0.8;
+            }
+            .about{
+                margin-top: 20px;
+                color:rgb(4, 4, 95);
+                font-size:28px;
+                text-align: center;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+            .text{
+                width:600px;
+                font-size: 22px;
+                margin-top: 20px;
+            }
+
+            .final{
+                max-width: 100%;
+                height:300px;
+                object-fit:contain;
+                object-position:center;
+                cursor:pointer;
+            }
+            .buttonslast{
+                margin-top: 20px;
+                display:flex;
+                gap:30px;
+                margin-left:400px;
+                
+            
+
+            }
+            .last{
+                background-color:rgb(0, 140, 255);
+                color: white;
+                border-radius: 15px;
+                transition: background-color 0.15s;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                text-align: center;
+                cursor: pointer;
+                font-size:16px;
+                margin-top: 20px;
+                
+            }
+            .last:hover{
+                background-color: white;
+                
+                color:rgb(0, 140, 255);
+            }
+            .last:active{
+                opacity:0.4;
+            }
+            .lastb{
+            
+                background-color: rgb(229, 178, 245);
+                width:100%
+            }
+        </style>
+    </head>
+    <body>
+    
+        <input type="text" placeholder="Search Topics...."  class="search">
+        <p class="intro">
+            <span class="fs">
+                Introducing "DevDiscovery"!
+            </span>
+        
+        </br>The ultimate course for web development and more!
+    </p>
+<p class="Heading">
+        HTML is the standard markup language for Web pages.</p>
+
+        <p>With <strong>HTML</strong> you can create your own <em>Website</em>. </p>
+        <p>HTML & CSS is easy to learn - You will enjoy it!</p>
+        <input type="text" placeholder="Email" class="Email">
+        <p class="PP">By clicking Agree and Join you agree to our Privacy Policy.</p>
+        <button class="ag">
+            Agree and Join
+        </button>
+    </br>
+        
+        </br>
+        <p class="tagline">
+            <span class="WW">Why Waiting?</span>
+        </br>
+        </br>
+        Start your Web Dev journey today with <strong>DevDiscovery!</strong>
+    </br>
+    <strong>
+        Build Beyond your Imagination!
+    </strong>
+
+        </p>
+        <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=6724s" target="_blank" class="link1">Back To Course</a>
+        <p>
+        
+        Scroll below for more details..
+        </p>
+        
+        <img class="codes" src="code-snippets.jpg">
+        <div class="background">
+        <div class="container">
+            <div class="tndline">
+                What do you get to learn in <em><strong>DEV DISCOVERY</strong></em> course?
+            </div>
+            <div class="bodytext">
+                This course covers <strong>HTML and CSS</strong> from scratch.
+            </br>
+            While you can get a result on the screen easily with HTML and CSS, 
+            it's important to have proper semantics and accessibility.
+            </br>
+        </br>
+    </br>
+            We've got a unique approach as we like to explain the concepts 
+            step by step so that you can fully understand how it works.
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        About the Instructor
+    </div>
+    <div class="author">
+        
+            <img class="photo" src="Ethan Adams.jpeg">
+        
+        
+        <div class="text">
+            <strong>Ethan Adams </strong>is a Google Chrome engineer and one of the leading contributors 
+            to open-source web development projects. He is known for his work on 
+            improving front-end performance and for creating tools that help developers 
+            optimize web apps.
+        </br>
+    </br>
+</br>
+            His passion for JavaScript led him to create and develop the most interactive, 
+            step by step courses for <strong>JavaScript, React, Programming basics, and HTML 
+                CSS.</strong>
+        </div>
+
+    </div>
+    <div class="lastb">
+    
+    <div class="buttonslast">
+        <div>
+        <button class="last">
+            Contact
+        </button>
+    </div>
+    <div>
+        <button class="last">
+            Privacy
+        </button>
+    </div>
+    <div>
+        <button class="last">
+            Terms
+        </button>
+    </div>
+    
+    </div>
+    <footer>
+        <p>Thanks for Visiting Us!</p>
+        <p><strong>Keep Learning!</strong></p>
+        <p class="copyright">© 2025</p>
+    </footer>
+</div>
+    
+    </body>
+    
+</html>
