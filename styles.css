@@ -246,7 +246,7 @@ body{
     margin-top:10px;
 }
 @media (min-width:1366px){
-    .ag{
+    .container .ag{
         margin-left:100px;
     }
 }
