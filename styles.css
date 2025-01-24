@@ -245,3 +245,102 @@ body{
     margin-left: 430px;
     margin-top:10px;
 }
+@media (max-width: 600px){
+p{
+    font-size: 50px;
+    margin-left: 300px;
+}
+.ag{
+    margin-left: 450px;
+    font-size: 37px;
+}
+.box{
+    margin-left: 130px;
+    width:900px;
+}
+.link1{
+    margin-left: 400px;
+    font-size: 4px;
+}
+.buttonslast{
+    
+    margin-left:360px;
+    
+
+
+}
+}
+
+@media (min-width: 1366px) and (max-width :1920px) {
+    p{
+        margin-left:550px;
+    }
+    .thumbnail{
+        margin-left:550px;
+    }
+    .ag{
+        margin-left: 600px;
+    }
+    .search{
+        margin-left: 550px;
+    }
+    .Email{
+        
+        margin-left: 550px;
+    }
+    
+    
+    .Heading{
+        margin-left:550px;
+    }
+    .link1{
+        
+        margin-left:600px;
+        
+    }
+    
+    .codes{
+        
+        margin-left: 550px;
+    }
+    
+    
+    
+    
+    .container{
+       
+        margin-left: 500px;
+    }
+    
+    
+    .author{
+        margin-left: 300px;
+       
+    }
+    
+    
+    
+    
+    
+    
+    .buttonslast{
+       
+        margin-left:550px;
+        
+    
+    
+    }
+    
+    
+    .box{
+        
+        margin-left: 250px;
+        
+    }
+    
+    .illus{
+       
+        margin-left: 530px;
+        
+    }
+}
