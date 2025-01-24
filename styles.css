@@ -245,20 +245,7 @@ body{
     margin-left: 430px;
     margin-top:10px;
 }
-@media (max-width: 600px){
 
-.link1{
-    margin-left: 550px;
-    font-size: 20px;
-}
-.buttonslast{
-    
-    margin-left:360px;
-    
-
-
-}
-}
 
 @media (min-width: 1366px) and (max-width :1920px) {
     p{
