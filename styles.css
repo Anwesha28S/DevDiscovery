@@ -32,9 +32,11 @@ body{
     padding-bottom: 10px;
     text-align: center;
     cursor: pointer;
-    margin-left: 490px;
+    margin-left:490px;
     font-size:16px;
     margin-top:24px;
+    justify-content: center;
+    align-items: center;
 }
 .ag:hover{
     background-color: white;
@@ -245,9 +247,22 @@ body{
     margin-left: 430px;
     margin-top:10px;
 }
-@media (min-width:1366px){
+.new{
+    display:block;
+}
+@media (min-width:1000px){
     .container .ag{
         margin-left:100px;
+    }
+
+}
+
+@media (min-width:800px){
+    .container .ag{
+        margin-left:0px;
+    }
+    .Heading{
+        color:red;
     }
 }
 
