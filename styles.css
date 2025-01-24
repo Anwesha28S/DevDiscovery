@@ -245,5 +245,9 @@ body{
     margin-left: 430px;
     margin-top:10px;
 }
-
+@media (min-width:1366px){
+    .ag{
+        margin-left:400px;
+    }
+}
 
