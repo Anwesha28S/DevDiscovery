@@ -163,7 +163,6 @@
         justify-content: flex-start;
         align-items: center;
         margin-bottom:0px;
-        box-sizing: border-box;
     }
     .photo{
         width: 100%;
@@ -192,7 +191,6 @@
         width:600px;
         font-size: 22px;
         margin-top: 20px;
-        margin-left: auto;
     
     }
     
