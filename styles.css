@@ -160,9 +160,10 @@
         margin-left:0px;
         display:flex;
         gap:28px;
-        justify-content: center;
-        
-        
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom:0px;
+        box-sizing: border-box;
     }
     .photo{
         width: 100%;
@@ -188,11 +189,11 @@
         text-decoration: underline;
     }
     .text{
-        width:280px;
+        width:600px;
         font-size: 22px;
         margin-top: 20px;
-        justify-content: center;
-        text-align: left;
+        margin-left: 0px;
+        margin-right: auto;
     
     }
     
