@@ -160,8 +160,8 @@
         margin-left:0px;
         display:flex;
         gap:28px;
-        justify-content: center;
-        
+        justify-content: flex-start;
+        align-items: center;
         margin-bottom:0px;
     }
     .photo{
