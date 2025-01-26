@@ -93,18 +93,23 @@
     .link1:hover{
         color:green;
     }
+    .codecont{
+        display: flex;               
+        justify-content: center;     
+        align-items: center;         
+        height: 100vh;   
+    }
     
     .codes{
         max-width: 100%;
-        height:300px;
+        height:auto;
         border-radius: 10px;
         border-color: rgb(5, 5, 102);
         border-width: 10px;
         object-fit:contain;
         object-position:center;
         margin-top:10px;
-        margin-left: auto;
-        margin-right: auto;
+        
     }
     .tndline{
         
