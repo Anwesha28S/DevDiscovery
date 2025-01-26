@@ -155,9 +155,11 @@
         color:brown;
     }
     .author{
-        align-items: center;
+       
         margin-top: 30px;
+        margin-left:0px;
         display:flex;
+        gap:28px;
         justify-content: center;
         
         margin-bottom:0px;
