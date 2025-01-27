@@ -87,6 +87,7 @@
     .link1{
         cursor: pointer;
         transition:color 0.15s;
+        display: block;
         margin-left: auto;
         margin-right: auto;
         width:40%;
